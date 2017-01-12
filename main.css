@@ -1,0 +1,50 @@
+html {
+    background: url(image/pexels-photo-167605.jpeg) no-repeat center;
+    background-size: cover;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    width: 1366px;
+    height: 768px;
+    display: flex;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    transition: 0.07s;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    background: rgba(0,0,0,0.2);
+    color: white;
+}
+
+span {
+    display: block;
+    font-size: 14px;  
+    color: yellow;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 100px #ffc600;
+}
+
+kbd {
+    display: block;
+    margin: 5px;
+    margin: 5px;
+}
